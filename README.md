@@ -16,3 +16,11 @@ minecraft-arm64 "~/Library/Application Support/minecraft/versions/1.18.1"
 ```
 
 Restart Minecraft Launcher, and create a new profile with this version. Be sure to also specify an arm64-compatible JDK.
+
+
+## Compiling
+Compile using
+```
+swiftc *.swift -o minecraft-arm64
+```
+in the sources directory
